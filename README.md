@@ -1,28 +1,46 @@
-# Energy Consumption Forecasting
+# Energy Consumption Forecasting  
 
-This project focuses on forecasting **hourly energy consumption** using historical energy generation, weather conditions and time-based features.  
-Accurate forecasting is crucial for **power grid management, cost efficiency, and preventing energy shortages**.  
+Accurate energy demand forecasting is critical for ensuring **grid stability, cost efficiency and preventing shortages**.  
+This project focuses on forecasting **hourly energy consumption** using **historical energy generation, weather conditions and time-based features**.  
 
-We experimented with multiple **Machine Learning** and **Deep Learning** models to identify the most effective approach.
+We benchmarked **multiple Machine Learning and Deep Learning models** and found that **LSTM networks** significantly outperform traditional ML models. 
 
-## Project Workflow
+## Dataset  
+
+- **Rows:** ~178k+ hourly records  
+- **Columns:** 48 features  
+- **Time Period:** Multi-year hourly dataset  
+- **Target Variable:** `total load actual` (energy consumption)  
+
+**Feature Categories:**  
+- **Time-based**: hour of day, day of week, month, holidays  
+- **Weather**: temperature, humidity, wind speed, etc.  
+- **Energy Generation**: solar, wind, hydro, thermal contributions
+
+## Methodology  
+
 1. **Data Preprocessing**  
    - Handling missing values  
-   - Feature engineering (time-based, weather-based, lag features)  
-   - Train-test split for time series  
+   - Feature scaling & encoding  
+   - Train-test split (time series aware)  
 
 2. **Exploratory Data Analysis (EDA)**  
-   - Trend & seasonality of energy consumption  
-   - Correlation with weather & time features
-   - Visualization of different trends and patterns in data
+   - Trend, seasonality, and daily patterns in consumption  
+   - Correlation between weather & energy demand  
+   - Visualization of various trends and oatterns in data 
 
-3. **Modeling**  
-   - Classical ML Models: XGBoost, Gradient Boosting, Random Forest, KNN
-   - Deep Learning: Long Short-Term Memory (LSTM)
+3. **Modeling Approaches**  
+   - **KNN**  
+   - **Random Forest**  
+   - **Gradient Boosting**  
+   - **XGBoost**  
+   - **LSTM (Deep Learning)**
 
-4. **Evaluation Metrics**  
-   - RMSE (Root Mean Squared Error)  
-   - R² (Coefficient of Determination)
+4. **Evaluation Metrics**
+   
+   To assess forecasting accuracy, we used the following metrics:
+   - **RMSE (Root Mean Squared Error):** Penalizes larger errors more strongly, useful for energy forecasting.
+   - **R² (Coefficient of Determination):** Indicates how well the model explains variance in consumption.  
 
 ## Results
 | Model              | RMSE     | R²      |
@@ -33,9 +51,16 @@ We experimented with multiple **Machine Learning** and **Deep Learning** models 
 | Random Forest      | 1502.5   | 0.8898  |
 | KNN                | 1970.6   | 0.8104  |
 
-**LSTM performed best**, capturing long-term dependencies in time series data.
+**LSTM performed best**, effectively capturing long-term dependencies in time series data.
 
-## Key Takeaways
-- Energy consumption shows strong **daily & seasonal patterns**.  
-- Weather features (temperature, humidity, etc.) improved forecasting accuracy.  
-- Deep Learning (LSTM) outperformed traditional ML models.  
+## Visualization  
+
+- Energy consumption trends over time  
+- Seasonal and daily load patterns  
+- Predicted vs actual consumption (model comparisons)  
+
+## Key Insights  
+
+- Energy consumption strongly depends on **time-of-day** and **temperature**  
+- Traditional ML models capture short-term variations but fail with long dependencies  
+- LSTM provides **significant performance improvement**  
