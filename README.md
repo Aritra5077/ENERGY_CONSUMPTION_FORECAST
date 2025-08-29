@@ -13,8 +13,8 @@ We experimented with multiple **Machine Learning** and **Deep Learning** models 
 
 2. **Exploratory Data Analysis (EDA)**  
    - Trend & seasonality of energy consumption  
-   - Correlation with weather & time features  
-   - Outlier detection  
+   - Correlation with weather & time features
+   - Visualization of different trends and patterns in data
 
 3. **Modeling**  
    - Classical ML Models: XGBoost, Gradient Boosting, Random Forest, KNN
