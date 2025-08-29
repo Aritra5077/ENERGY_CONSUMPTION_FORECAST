@@ -29,9 +29,9 @@ We experimented with multiple **Machine Learning** and **Deep Learning** models 
 |--------------------|----------|---------|
 | LSTM               | 964.2    | 0.9546  |
 | XGBoost            | 1364.2   | 0.9091  |
-| Gradient Boosting  | 1374.9   | 0.9062  |
-| Random Forest      | 1485.3   | 0.8947  |
-| Linear Regression  | 2436.7   | 0.7512  |
+| Gradient Boosting  | 1374.9   | 0.9077  |
+| Random Forest      | 1502.5   | 0.8898  |
+| KNN                | 1970.6   | 0.8104  |
 
 **LSTM performed best**, capturing long-term dependencies in time series data.
 
