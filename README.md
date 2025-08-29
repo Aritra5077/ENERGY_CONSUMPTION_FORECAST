@@ -68,4 +68,4 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 
 ## Dataset Source  
 
-The dataset was collected from Kaggle and is available here: [Energy Consumption Dataset on Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/))  
+The dataset was collected from Kaggle and is available here: [Energy Consumption Dataset on Kaggle](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/)
