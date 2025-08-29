@@ -57,7 +57,8 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 
 - Energy consumption trends over time  
 - Seasonal and daily load patterns  
-- Predicted vs actual consumption (model comparisons)  
+- Predicted vs actual consumption (model comparisons)
+- Residual Distribution
 
 ## Key Insights  
 
