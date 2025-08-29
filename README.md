@@ -13,9 +13,9 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 - **Target Variable:** `total load actual` (energy consumption)  
 
 **Feature Categories:**  
-- **Time-based**: hour of day, day of week, month, holidays  
-- **Weather**: temperature, humidity, wind speed, etc.  
-- **Energy Generation**: solar, wind, hydro, thermal contributions
+- **Time-based**: hour of day, day of week, month 
+- **Weather**: temperature, humidity, wind speed etc.  
+- **Energy Generation**: solar, wind, hydro, nuclear contributions
 
 ## Methodology  
 
