@@ -65,3 +65,7 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 - Energy consumption strongly depends on **time-of-day** and **temperature**  
 - Traditional ML models capture short-term variations but fail with long dependencies  
 - LSTM provides **significant performance improvement**  
+
+## Dataset Source  
+
+The dataset was collected from Kaggle and is available here: [Energy Consumption Dataset on Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/))  
