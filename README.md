@@ -1,11 +1,9 @@
 # Energy Consumption Forecasting
 
-This project focuses on forecasting **hourly energy consumption** using historical energy generation, weather conditions, and time-based features.  
+This project focuses on forecasting **hourly energy consumption** using historical energy generation, weather conditions and time-based features.  
 Accurate forecasting is crucial for **power grid management, cost efficiency, and preventing energy shortages**.  
 
 We experimented with multiple **Machine Learning** and **Deep Learning** models to identify the most effective approach.
-
----
 
 ## Project Workflow
 1. **Data Preprocessing**  
@@ -24,9 +22,7 @@ We experimented with multiple **Machine Learning** and **Deep Learning** models 
 
 4. **Evaluation Metrics**  
    - RMSE (Root Mean Squared Error)  
-   - R² (Coefficient of Determination)  
-
----
+   - R² (Coefficient of Determination)
 
 ## Results
 | Model              | RMSE     | R²      |
@@ -38,8 +34,6 @@ We experimented with multiple **Machine Learning** and **Deep Learning** models 
 | Linear Regression  | 2436.7   | 0.7512  |
 
 **LSTM performed best**, capturing long-term dependencies in time series data.
-
----
 
 ## Key Takeaways
 - Energy consumption shows strong **daily & seasonal patterns**.  
