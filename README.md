@@ -62,7 +62,7 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 
 ## Key Insights  
 
-- Energy consumption strongly depends on **time-of-day** and **temperature**  
+- Energy consumption strongly depends on **time-of-day** and **energy generation**  
 - Traditional ML models capture short-term variations but fail with long dependencies  
 - LSTM provides **significant performance improvement**  
 
