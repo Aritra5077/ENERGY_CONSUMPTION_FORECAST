@@ -41,11 +41,13 @@ The Datasets which were used for this project are now available in
    - **XGBoost**  
    - **LSTM (Deep Learning)**
 
+   The final models are already available in this repo.
+
 4. **Evaluation Metrics**
    
    To assess forecasting accuracy, we used the following metrics:
    - **RMSE (Root Mean Squared Error):** Penalizes larger errors more strongly, useful for energy forecasting.
-   - **R² (Coefficient of Determination):** Indicates how well the model explains variance in consumption.  
+   - **R² (Coefficient of Determination):** Indicates how well the model explains variance in consumption.
 
 ## Results
 | Model              | RMSE     | R²      |
