@@ -3,7 +3,7 @@
 Accurate energy demand forecasting is critical for ensuring **grid stability, cost efficiency and preventing shortages**.  
 This project focuses on forecasting **hourly energy consumption** using **historical energy generation, weather conditions and time-based features**.  
 
-We benchmarked **multiple Machine Learning and Deep Learning models** and found that **LSTM networks** significantly outperform traditional ML models. 
+I benchmarked **multiple Machine Learning and Deep Learning models** and found that **LSTM networks** significantly outperform traditional ML models. 
 
 ## Dataset  
 
@@ -16,6 +16,8 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 - **Time-based**: hour of day, day of week, month 
 - **Weather**: temperature, humidity, wind speed etc.  
 - **Energy Generation**: solar, wind, hydro, nuclear contributions
+
+  The Datasets which were used for this project are now available in 
 
 ## Methodology  
 
