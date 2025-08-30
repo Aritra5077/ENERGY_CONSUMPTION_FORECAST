@@ -41,7 +41,7 @@ The Datasets which were used for this project are now available in
    - **XGBoost**  
    - **LSTM (Deep Learning)**
 
-   The final models are already available in this repository.
+   The final models are already uploaded in this repository.
 
 4. **Evaluation Metrics**
    
