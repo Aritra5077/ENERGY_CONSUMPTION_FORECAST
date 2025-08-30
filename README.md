@@ -17,7 +17,9 @@ I benchmarked **multiple Machine Learning and Deep Learning models** and found t
 - **Weather**: temperature, humidity, wind speed etc.  
 - **Energy Generation**: solar, wind, hydro, nuclear contributions
 
-  The Datasets which were used for this project are now available in 
+  The Datasets which were used for this project are now available in
+  - `Dataset/energy_dataset.csv`
+  - `Dataset/weather_features.csv`
 
 ## Methodology  
 
