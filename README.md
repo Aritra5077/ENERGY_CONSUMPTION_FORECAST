@@ -20,7 +20,7 @@ We benchmarked **multiple Machine Learning and Deep Learning models** and found 
 ## Methodology  
 
 1. **Data Preprocessing**  
-   - *Handling missing values:* Mostly values were interpolated for a smaller amount of missing data.
+   - *Handling missing values:* Mostly values were interpolated for a smaller amount of missing data
    - *Feature scaling & One Hot Encoding*
    - *Feature Engineering*
    - *Train-test split (time series aware)*  
