@@ -32,7 +32,7 @@ The Datasets which were used for this project are now available in
 2. **Exploratory Data Analysis (EDA)**  
    - Trend, seasonality, and daily patterns in consumption  
    - Correlation between weather & energy demand  
-   - Visualization of various trends and oatterns in data 
+   - Visualization of various trends and patterns in data 
 
 3. **Modeling Approaches**  
    - **KNN**  
